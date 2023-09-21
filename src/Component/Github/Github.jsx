@@ -16,7 +16,7 @@ const Github = () => {
     <div className="text-center m-5 bg-gray-400 text-white p-4 text-2xl">
         <h1>Username :{data.login}</h1>
         Github Follower :{data.followers} <br />
-        <img src={data.avatar_url} alt="Github Profle " className='w-64 rounded  text-center  p-5'/>
+          <img src={data.avatar_url} alt="Github Profle " className='w-64 rounded  text-center  p-5'/>
         </div>
   )
 }
