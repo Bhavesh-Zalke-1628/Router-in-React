@@ -18,6 +18,8 @@ const Github = () => {
         Github Follower :{data.followers} <br />
           <img src={data.avatar_url} alt="Github Profle " className='w-64 rounded  text-center  p-5'/>
         </div>
+
+
   )
 }
 
